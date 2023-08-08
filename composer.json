@@ -1,0 +1,19 @@
+{
+    "name": "ramiz/contact",
+    "description": "this is contact admin package using this package user can send mail to admin",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ramiz Belim"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Ramiz\\Contact\\": "src/"
+        }
+    },
+    "require": {}
+    
+}
