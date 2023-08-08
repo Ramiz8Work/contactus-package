@@ -37,6 +37,7 @@ To get started with the Contact Admin Package, follow these steps:
 4. **Publish Configuration**:
    Publish the package's configuration files:
 
+
    php artisan vendor:publish --tag=contact-config
 
 5. **Run Migrations**:
@@ -46,7 +47,7 @@ To get started with the Contact Admin Package, follow these steps:
 
 ## Usage
 
-Once the package is installed and configured, you can easily manage contact messages through the provided routes and views. Access the contact admin panel by navigating to `/contact-admin` in your browser.
+Once the package is installed and configured, you can easily manage contact messages through the provided routes and views. Access the contact admin panel by navigating to `/contact` in your browser.
 
 ## License
 
