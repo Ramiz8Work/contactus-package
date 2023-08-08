@@ -14,8 +14,13 @@
             "Ramiz\\Contact\\": "src/"
         }
     },
-    "require": {
-        
-    }
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ramiz\\Contact\\ContactServiceProvider"
+            ],
+        }
+    },
     
 }
