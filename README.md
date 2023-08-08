@@ -37,9 +37,11 @@ To get started with the Contact Admin Package, follow these steps:
 4. **Publish Configuration**:
    Publish the package's configuration files:
 
-
+   ```env
    php artisan vendor:publish --tag=contact-config
+    ```
 
+    
 5. **Run Migrations**:
    Run the database migrations to create the necessary tables:
 
