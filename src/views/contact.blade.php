@@ -8,11 +8,11 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <title>Contact!</title>
+    <title>Contact us</title>
   </head>
   <body>
     <div class="container">
-        <h1>Contact </h1>
+        <h1>Contact us</h1>
         <form action="{{ route('contactMail') }}" method="post">
             @csrf
             <div class="form-group">
