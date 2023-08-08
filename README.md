@@ -38,7 +38,7 @@ To get started with the Contact Admin Package, follow these steps:
    Publish the package's configuration files:
 
    ```env
-   php artisan vendor:publish
+    php artisan vendor:publish --provider="Ramiz\Contact\ContactServiceProvider"
     ```
 
 
