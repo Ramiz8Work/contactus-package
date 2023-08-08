@@ -38,7 +38,7 @@ To get started with the Contact Admin Package, follow these steps:
    Publish the package's configuration files:
 
    ```env
-   php artisan vendor:publish --tag=contact-config
+   php artisan vendor:publish
     ```
 
 
@@ -46,9 +46,9 @@ To get started with the Contact Admin Package, follow these steps:
    Run the database migrations to create the necessary tables:
 
 
-  
+   ```env
    php artisan migrate
-  
+    ```
 
 
 ## Usage
