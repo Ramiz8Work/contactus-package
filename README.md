@@ -1,8 +1,6 @@
-<<<<<<< HEAD
-# sendmailtoadmin
-this is contact admin package using this package user can send mail to admin
-=======
-# Contact us package
+# its a simple contact admin package with name, email and message fields
+# run commands
+    php artisan vendor:publish
+    php artisan migrate
 
-## this is contact admin package using this package user can send mail to admin
->>>>>>> master
+
