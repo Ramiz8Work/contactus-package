@@ -41,11 +41,15 @@ To get started with the Contact Admin Package, follow these steps:
    php artisan vendor:publish --tag=contact-config
     ```
 
-    
+
 5. **Run Migrations**:
    Run the database migrations to create the necessary tables:
 
+
+  
    php artisan migrate
+  
+
 
 ## Usage
 
