@@ -19,8 +19,8 @@
         "laravel": {
             "providers": [
                 "Ramiz\\Contact\\ContactServiceProvider"
-            ],
+            ]
         }
-    },
+    }
     
 }
